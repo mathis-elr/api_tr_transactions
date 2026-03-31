@@ -34,9 +34,7 @@ CSVCOLUMN_TO_TRANSLATION_KEY = {
     "isin": "CSVColumn_ISIN",
     "shares": "CSVColumn_Shares",
     "fees": "CSVColumn_Fees",
-    "taxes": "CSVColumn_Taxes",
-    "isin2": "CSVColumn_ISIN2",
-    "shares2": "CSVColumn_Shares2",
+    "price": "Prix",
 }
 
 
@@ -48,9 +46,7 @@ class _SimpleTransaction(TypedDict):
     isin: Union[str, None]
     shares: Union[str, float, None]
     fees: Union[str, float, None]
-    taxes: Union[str, float, None]
-    isin2: Union[str, None]
-    shares2: Union[str, float, None]
+    price: Union[str, float, None]
 
 
 @dataclass
@@ -122,6 +118,21 @@ class TransactionExporter:
         if event.event_type is None:
             return
 
+        unit_price = None
+        if hasattr(event, 'event_dict') and event.event_dict:
+            sections = event.event_dict.get("details", {}).get("sections", [])
+            # On cherche la table qui contient le cours (Aktienkurs/Prix)
+            for s in sections:
+                if s.get("type") == "table":
+                    for d in s.get("data", []):
+                        if d.get("title") in ["Aktienkurs", "Prix de l'actif", "Asset price", "Cours"]:
+                            p_raw = d.get("detail", {}).get("text", "").replace("€", "").replace("\xa0", "").strip()
+                            # On transforme le texte en nombre réel
+                            try:
+                                unit_price = float(p_raw.replace(".", "").replace(",", "."))
+                            except:
+                                unit_price = p_raw  # En cas d'erreur on garde le texte
+
         kwargs: _SimpleTransaction = {
             "date": event.date.replace(microsecond=0, tzinfo=None).isoformat()
             if self.date_with_time
@@ -132,9 +143,7 @@ class TransactionExporter:
             "isin": event.isin,
             "shares": self._decimal_format(event.shares, False),
             "fees": self._decimal_format(-event.fees) if event.fees is not None else None,
-            "taxes": self._decimal_format(-event.taxes) if event.taxes is not None else None,
-            "isin2": event.isin2,
-            "shares2": self._decimal_format(event.shares2, False),
+            "price": event.price,
         }
 
         if event.event_type == ConditionalEventType.TRADE_INVOICE:
@@ -275,7 +284,7 @@ class TransactionExporter:
         events: Iterable[Event],
         sort: bool = False,
         format: Literal["json", "csv"] = "csv",
-    ) -> None:
+    ):
         self._log.info("Exporting transactions...")
         if sort:
             events = sorted(events, key=lambda ev: ev.date)
@@ -290,8 +299,15 @@ class TransactionExporter:
             writer.writeheader()
             writer.writerows(transactions)
         elif format == "json":
-            for txn in transactions:
-                fp.write(json.dumps(txn))
-                fp.write("\n")
+            # 1. On convertit le générateur en liste Python classique
+            data = list(transactions)
 
-        self._log.info("Transactions exported.")
+            # 2. On convertit TOUTE la liste en texte JSON d'un coup, avec indent=4 pour l'esthétique
+            json_texte = json.dumps(data, ensure_ascii=False, indent=4)
+
+            # 3. On écrit ce texte global dans le fichier
+            fp.write(json_texte)
+
+            self._log.info("Transactions exported.")
+            return data
+

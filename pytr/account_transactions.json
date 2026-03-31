@@ -1,0 +1,2072 @@
+[
+    {
+        "Date": "2025-08-20T20:18:20",
+        "Type": "Dépôt",
+        "Valeur": 1.0,
+        "Note": "PEA-Aktivierung",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-09-22T12:53:13",
+        "Type": "Dépôt",
+        "Valeur": 198.0,
+        "Note": "Einzahlung",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-09-22T13:03:48",
+        "Type": "Achat",
+        "Valeur": -49.99,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000508,
+        "Frais": -1.0,
+        "Prix": 96442.88
+    },
+    {
+        "Date": "2025-09-22T13:04:07",
+        "Type": "Achat",
+        "Valeur": -50.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.013654,
+        "Frais": -1.0,
+        "Prix": 3588.82
+    },
+    {
+        "Date": "2025-09-25T12:13:35",
+        "Type": "Retrait",
+        "Valeur": -1.0,
+        "Note": "eloire",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-09-30T19:05:36",
+        "Type": "Dépôt",
+        "Valeur": 200.0,
+        "Note": "Mathis ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-01T02:42:10",
+        "Type": "Intérêts",
+        "Valeur": 0.04,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-02T06:35:52",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005163,
+        "Frais": null,
+        "Prix": 3873.7
+    },
+    {
+        "Date": "2025-10-02T06:38:49",
+        "Type": "Achat",
+        "Valeur": -30.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000288,
+        "Frais": null,
+        "Prix": 103891.43
+    },
+    {
+        "Date": "2025-10-02T08:23:41",
+        "Type": "Achat",
+        "Valeur": -28.04,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 28.035
+    },
+    {
+        "Date": "2025-10-02T08:47:21",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.305833,
+        "Frais": null,
+        "Prix": 130.79
+    },
+    {
+        "Date": "2025-10-02T11:56:51",
+        "Type": "Achat",
+        "Valeur": -36.66,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 2.0,
+        "Frais": null,
+        "Prix": 18.328
+    },
+    {
+        "Date": "2025-10-02T13:56:03",
+        "Type": "Achat",
+        "Valeur": -85.14,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 85.14
+    },
+    {
+        "Date": "2025-10-02T14:32:12",
+        "Type": "Achat",
+        "Valeur": -49.67,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 9.0,
+        "Frais": null,
+        "Prix": 5.519
+    },
+    {
+        "Date": "2025-10-08T10:47:35",
+        "Type": "Dépôt",
+        "Valeur": 200.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-09T06:33:29",
+        "Type": "Achat",
+        "Valeur": -30.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000278,
+        "Frais": null,
+        "Prix": 107810.85
+    },
+    {
+        "Date": "2025-10-09T06:35:04",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005086,
+        "Frais": null,
+        "Prix": 3931.66
+    },
+    {
+        "Date": "2025-10-09T08:47:21",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.28996,
+        "Frais": null,
+        "Prix": 137.95
+    },
+    {
+        "Date": "2025-10-09T14:32:10",
+        "Type": "Achat",
+        "Valeur": -50.42,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 9.0,
+        "Frais": null,
+        "Prix": 5.602
+    },
+    {
+        "Date": "2025-10-10T17:45:01",
+        "Type": "Achat",
+        "Valeur": -31.02,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.008469,
+        "Frais": -1.0,
+        "Prix": 3545.27
+    },
+    {
+        "Date": "2025-10-10T17:45:28",
+        "Type": "Achat",
+        "Valeur": -26.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000245,
+        "Frais": -1.0,
+        "Prix": 102025.98
+    },
+    {
+        "Date": "2025-10-11T02:20:50",
+        "Type": "Achat",
+        "Valeur": -10.99,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000103,
+        "Frais": -1.0,
+        "Prix": 97038.62
+    },
+    {
+        "Date": "2025-10-15T18:38:37",
+        "Type": "Dépôt",
+        "Valeur": 1.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-15T18:39:10",
+        "Type": "Dépôt",
+        "Valeur": 199.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-15T18:46:13",
+        "Type": "Dépôt",
+        "Valeur": 100.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-16T06:35:45",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005622,
+        "Frais": null,
+        "Prix": 3557.26
+    },
+    {
+        "Date": "2025-10-16T06:36:37",
+        "Type": "Achat",
+        "Valeur": -30.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000304,
+        "Frais": null,
+        "Prix": 98386.3
+    },
+    {
+        "Date": "2025-10-16T08:23:40",
+        "Type": "Achat",
+        "Valeur": -28.4,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 28.395
+    },
+    {
+        "Date": "2025-10-16T08:47:21",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.277797,
+        "Frais": null,
+        "Prix": 143.99
+    },
+    {
+        "Date": "2025-10-16T11:56:52",
+        "Type": "Achat",
+        "Valeur": -36.69,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 2.0,
+        "Frais": null,
+        "Prix": 18.346
+    },
+    {
+        "Date": "2025-10-16T13:56:02",
+        "Type": "Achat",
+        "Valeur": -85.67,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 85.67
+    },
+    {
+        "Date": "2025-10-16T14:32:09",
+        "Type": "Achat",
+        "Valeur": -49.74,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 9.0,
+        "Frais": null,
+        "Prix": 5.527
+    },
+    {
+        "Date": "2025-10-22T17:35:02",
+        "Type": "Dépôt",
+        "Valeur": 1.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-22T17:36:02",
+        "Type": "Dépôt",
+        "Valeur": 109.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-10-23T06:35:05",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005804,
+        "Frais": null,
+        "Prix": 3445.57
+    },
+    {
+        "Date": "2025-10-23T08:47:22",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.284414,
+        "Frais": null,
+        "Prix": 140.64
+    },
+    {
+        "Date": "2025-10-23T14:32:09",
+        "Type": "Achat",
+        "Valeur": -50.13,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 9.0,
+        "Frais": null,
+        "Prix": 5.57
+    },
+    {
+        "Date": "2025-11-01T03:05:43",
+        "Type": "Intérêts",
+        "Valeur": 0.04,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-11-02T09:02:36",
+        "Type": "Dépôt",
+        "Valeur": 200.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-11-03T07:32:28",
+        "Type": "Achat",
+        "Valeur": -30.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000311,
+        "Frais": null,
+        "Prix": 96223.83
+    },
+    {
+        "Date": "2025-11-03T07:35:50",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.0045,
+        "Frais": null,
+        "Prix": 3332.74
+    },
+    {
+        "Date": "2025-11-03T09:23:40",
+        "Type": "Achat",
+        "Valeur": -29.26,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 29.255
+    },
+    {
+        "Date": "2025-11-03T09:47:21",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.1089,
+        "Frais": null,
+        "Prix": 137.74
+    },
+    {
+        "Date": "2025-11-03T15:32:09",
+        "Type": "Achat",
+        "Valeur": -34.39,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.732
+    },
+    {
+        "Date": "2025-11-05T12:16:38",
+        "Type": "Achat",
+        "Valeur": -31.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.010333,
+        "Frais": -1.0,
+        "Prix": 2903.26
+    },
+    {
+        "Date": "2025-11-05T12:17:06",
+        "Type": "Achat",
+        "Valeur": -30.92,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000335,
+        "Frais": -1.0,
+        "Prix": 89315.62
+    },
+    {
+        "Date": "2025-11-10T07:35:03",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.004672,
+        "Frais": null,
+        "Prix": 3210.3
+    },
+    {
+        "Date": "2025-11-10T07:36:22",
+        "Type": "Dépôt",
+        "Valeur": 95.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-11-10T09:47:20",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.107242,
+        "Frais": null,
+        "Prix": 139.87
+    },
+    {
+        "Date": "2025-11-10T15:32:10",
+        "Type": "Achat",
+        "Valeur": -34.08,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.68
+    },
+    {
+        "Date": "2025-11-15T08:30:28",
+        "Type": "Dépôt",
+        "Valeur": 260.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-11-16T08:08:43",
+        "Type": "Achat",
+        "Valeur": -51.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.407527,
+        "Frais": -1.0,
+        "Prix": 122.688
+    },
+    {
+        "Date": "2025-11-17T07:30:49",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.00047,
+        "Frais": null,
+        "Prix": 84973.91
+    },
+    {
+        "Date": "2025-11-17T07:35:44",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005286,
+        "Frais": null,
+        "Prix": 2837.59
+    },
+    {
+        "Date": "2025-11-17T10:22:14",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.107472,
+        "Frais": null,
+        "Prix": 139.57
+    },
+    {
+        "Date": "2025-11-17T10:31:09",
+        "Type": "Achat",
+        "Valeur": -28.46,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 28.46
+    },
+    {
+        "Date": "2025-11-17T15:32:10",
+        "Type": "Achat",
+        "Valeur": -33.59,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.598
+    },
+    {
+        "Date": "2025-11-22T09:42:59",
+        "Type": "Dépôt",
+        "Valeur": null,
+        "Note": "Incoming crypto transaction",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-11-22T09:44:03",
+        "Type": "Dépôt",
+        "Valeur": -0.44,
+        "Note": "Bitcoin",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": 73275.66
+    },
+    {
+        "Date": "2025-11-24T07:30:53",
+        "Type": "Achat",
+        "Valeur": -40.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000514,
+        "Frais": null,
+        "Prix": 77805.05
+    },
+    {
+        "Date": "2025-11-24T07:35:03",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005925,
+        "Frais": null,
+        "Prix": 2531.52
+    },
+    {
+        "Date": "2025-11-24T09:47:21",
+        "Type": "Achat",
+        "Valeur": -15.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.107234,
+        "Frais": null,
+        "Prix": 139.88
+    },
+    {
+        "Date": "2025-11-24T15:32:09",
+        "Type": "Achat",
+        "Valeur": -33.51,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.585
+    },
+    {
+        "Date": "2025-12-01T03:02:30",
+        "Type": "Intérêts",
+        "Valeur": 0.1,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-12-01T21:27:24",
+        "Type": "Dépôt",
+        "Valeur": 500.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2025-12-02T07:30:35",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000259,
+        "Frais": null,
+        "Prix": 77167.6
+    },
+    {
+        "Date": "2025-12-02T07:35:24",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.004019,
+        "Frais": null,
+        "Prix": 2487.58
+    },
+    {
+        "Date": "2025-12-02T07:45:03",
+        "Type": "Achat",
+        "Valeur": -6.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.053473,
+        "Frais": null,
+        "Prix": 112.2059
+    },
+    {
+        "Date": "2025-12-02T09:23:41",
+        "Type": "Achat",
+        "Valeur": -28.29,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 28.2851
+    },
+    {
+        "Date": "2025-12-02T09:47:21",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.069866,
+        "Frais": null,
+        "Prix": 143.13
+    },
+    {
+        "Date": "2025-12-02T12:56:51",
+        "Type": "Achat",
+        "Valeur": -18.62,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 18.618
+    },
+    {
+        "Date": "2025-12-02T14:56:03",
+        "Type": "Achat",
+        "Valeur": -88.43,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 88.43
+    },
+    {
+        "Date": "2025-12-02T15:32:13",
+        "Type": "Achat",
+        "Valeur": -34.07,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.678
+    },
+    {
+        "Date": "2025-12-09T07:30:04",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000249,
+        "Frais": null,
+        "Prix": 80166.7
+    },
+    {
+        "Date": "2025-12-09T07:35:03",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.00362,
+        "Frais": null,
+        "Prix": 2762.36
+    },
+    {
+        "Date": "2025-12-09T07:45:03",
+        "Type": "Achat",
+        "Valeur": -6.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.051172,
+        "Frais": null,
+        "Prix": 117.2497
+    },
+    {
+        "Date": "2025-12-09T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.069925,
+        "Frais": null,
+        "Prix": 143.01
+    },
+    {
+        "Date": "2025-12-09T15:32:13",
+        "Type": "Achat",
+        "Valeur": -34.1,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.683
+    },
+    {
+        "Date": "2025-12-16T07:31:54",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000264,
+        "Frais": null,
+        "Prix": 75480.2
+    },
+    {
+        "Date": "2025-12-16T07:36:41",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.003896,
+        "Frais": null,
+        "Prix": 2566.39
+    },
+    {
+        "Date": "2025-12-16T07:45:03",
+        "Type": "Achat",
+        "Valeur": -6.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.054599,
+        "Frais": null,
+        "Prix": 109.8912
+    },
+    {
+        "Date": "2025-12-16T09:23:41",
+        "Type": "Achat",
+        "Valeur": -27.67,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 27.665
+    },
+    {
+        "Date": "2025-12-16T09:47:21",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.0693,
+        "Frais": null,
+        "Prix": 144.3
+    },
+    {
+        "Date": "2025-12-16T12:56:51",
+        "Type": "Achat",
+        "Valeur": -18.8,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 18.796
+    },
+    {
+        "Date": "2025-12-16T15:32:15",
+        "Type": "Achat",
+        "Valeur": -33.35,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.558
+    },
+    {
+        "Date": "2025-12-23T07:30:59",
+        "Type": "Achat",
+        "Valeur": -20.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.00026,
+        "Frais": null,
+        "Prix": 76637.7
+    },
+    {
+        "Date": "2025-12-23T07:35:09",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.003861,
+        "Frais": null,
+        "Prix": 2590.0
+    },
+    {
+        "Date": "2025-12-23T07:45:06",
+        "Type": "Achat",
+        "Valeur": -6.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.055472,
+        "Frais": null,
+        "Prix": 108.162
+    },
+    {
+        "Date": "2025-12-23T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.066308,
+        "Frais": null,
+        "Prix": 150.81
+    },
+    {
+        "Date": "2025-12-23T15:32:15",
+        "Type": "Achat",
+        "Valeur": -33.88,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.647
+    },
+    {
+        "Date": "2025-12-31T10:17:20",
+        "Type": "Dépôt",
+        "Valeur": 700.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-01-01T12:22:05",
+        "Type": "Intérêts",
+        "Valeur": 0.24,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-01-02T07:31:24",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.00032,
+        "Frais": null,
+        "Prix": 78115.84
+    },
+    {
+        "Date": "2026-01-02T07:36:02",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.003772,
+        "Frais": null,
+        "Prix": 2650.45
+    },
+    {
+        "Date": "2026-01-02T07:45:03",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.089913,
+        "Frais": null,
+        "Prix": 111.2178
+    },
+    {
+        "Date": "2026-01-02T09:16:40",
+        "Type": "Achat",
+        "Valeur": -86.35,
+        "Note": "MSCI EMU Climate Net Zero Ambition PAB  EUR (Acc)",
+        "ISIN": "LU2182388582",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 86.35
+    },
+    {
+        "Date": "2026-01-02T09:21:50",
+        "Type": "Achat",
+        "Valeur": -30.34,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.34
+    },
+    {
+        "Date": "2026-01-02T09:23:40",
+        "Type": "Achat",
+        "Valeur": -29.26,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 29.255
+    },
+    {
+        "Date": "2026-01-02T09:47:21",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.067403,
+        "Frais": null,
+        "Prix": 148.36
+    },
+    {
+        "Date": "2026-01-02T12:56:51",
+        "Type": "Achat",
+        "Valeur": -19.24,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.238
+    },
+    {
+        "Date": "2026-01-02T14:56:03",
+        "Type": "Achat",
+        "Valeur": -87.45,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 87.45
+    },
+    {
+        "Date": "2026-01-02T15:32:14",
+        "Type": "Achat",
+        "Valeur": -33.88,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.647
+    },
+    {
+        "Date": "2026-01-06T12:19:57",
+        "Type": "Dépôt",
+        "Valeur": 50.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-01-08T15:56:22",
+        "Type": "Dépôt",
+        "Valeur": 300.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-01-09T07:31:01",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.00031,
+        "Frais": null,
+        "Prix": 80400.84
+    },
+    {
+        "Date": "2026-01-09T07:35:12",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.00363,
+        "Frais": null,
+        "Prix": 2754.44
+    },
+    {
+        "Date": "2026-01-09T07:45:06",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.081196,
+        "Frais": null,
+        "Prix": 123.1583
+    },
+    {
+        "Date": "2026-01-09T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.065646,
+        "Frais": null,
+        "Prix": 152.33
+    },
+    {
+        "Date": "2026-01-09T15:32:14",
+        "Type": "Achat",
+        "Valeur": -34.73,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.789
+    },
+    {
+        "Date": "2026-01-16T07:35:55",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.003408,
+        "Frais": null,
+        "Prix": 2934.02
+    },
+    {
+        "Date": "2026-01-16T07:37:01",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000294,
+        "Frais": null,
+        "Prix": 84937.68
+    },
+    {
+        "Date": "2026-01-16T07:45:02",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.079179,
+        "Frais": null,
+        "Prix": 126.2947
+    },
+    {
+        "Date": "2026-01-16T09:23:40",
+        "Type": "Achat",
+        "Valeur": -30.56,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.56
+    },
+    {
+        "Date": "2026-01-16T09:47:21",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.063633,
+        "Frais": null,
+        "Prix": 157.15
+    },
+    {
+        "Date": "2026-01-16T10:28:12",
+        "Type": "Achat",
+        "Valeur": -23.99,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 23.89
+    },
+    {
+        "Date": "2026-01-16T12:56:51",
+        "Type": "Achat",
+        "Valeur": -19.83,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.834
+    },
+    {
+        "Date": "2026-01-16T13:31:20",
+        "Type": "Achat",
+        "Valeur": -32.4,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": -0.16,
+        "Prix": 32.24
+    },
+    {
+        "Date": "2026-01-16T15:32:14",
+        "Type": "Achat",
+        "Valeur": -34.7,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.784
+    },
+    {
+        "Date": "2026-01-21T20:52:18",
+        "Type": "Vente",
+        "Valeur": 86.56,
+        "Note": "MSCI EMU Climate Net Zero Ambition PAB  EUR (Acc)",
+        "ISIN": "LU2182388582",
+        "Parts": 1.0,
+        "Frais": -0.43,
+        "Prix": 86.99
+    },
+    {
+        "Date": "2026-01-21T20:52:40",
+        "Type": "Achat",
+        "Valeur": -65.0,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 2.0,
+        "Frais": -0.32,
+        "Prix": 32.34
+    },
+    {
+        "Date": "2026-01-23T07:31:00",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000318,
+        "Frais": null,
+        "Prix": 78607.62
+    },
+    {
+        "Date": "2026-01-23T07:35:02",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.003865,
+        "Frais": null,
+        "Prix": 2587.17
+    },
+    {
+        "Date": "2026-01-23T07:45:03",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.089601,
+        "Frais": null,
+        "Prix": 111.6057
+    },
+    {
+        "Date": "2026-01-23T09:23:40",
+        "Type": "Achat",
+        "Valeur": -30.45,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.445
+    },
+    {
+        "Date": "2026-01-23T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.06024,
+        "Frais": null,
+        "Prix": 166.0
+    },
+    {
+        "Date": "2026-01-23T12:56:51",
+        "Type": "Achat",
+        "Valeur": -19.66,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.656
+    },
+    {
+        "Date": "2026-01-23T15:32:13",
+        "Type": "Achat",
+        "Valeur": -34.15,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.691
+    },
+    {
+        "Date": "2026-01-30T22:05:12",
+        "Type": "Dépôt",
+        "Valeur": 750.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-01-31T17:03:37",
+        "Type": "Achat",
+        "Valeur": -50.96,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000732,
+        "Frais": -1.0,
+        "Prix": 68245.05
+    },
+    {
+        "Date": "2026-01-31T17:03:50",
+        "Type": "Achat",
+        "Valeur": -51.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.023647,
+        "Frais": -1.0,
+        "Prix": 2114.43
+    },
+    {
+        "Date": "2026-01-31T17:03:58",
+        "Type": "Achat",
+        "Valeur": -51.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.553409,
+        "Frais": -1.0,
+        "Prix": 90.353
+    },
+    {
+        "Date": "2026-02-01T03:28:51",
+        "Type": "Intérêts",
+        "Valeur": 0.6,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-02-02T07:39:46",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005146,
+        "Frais": null,
+        "Prix": 1942.93
+    },
+    {
+        "Date": "2026-02-02T08:21:43",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000373,
+        "Frais": null,
+        "Prix": 66894.04
+    },
+    {
+        "Date": "2026-02-02T08:36:54",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.113369,
+        "Frais": null,
+        "Prix": 88.2071
+    },
+    {
+        "Date": "2026-02-02T09:24:51",
+        "Type": "Achat",
+        "Valeur": -31.61,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 31.605
+    },
+    {
+        "Date": "2026-02-02T09:38:12",
+        "Type": "Achat",
+        "Valeur": -30.06,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.06
+    },
+    {
+        "Date": "2026-02-02T09:48:14",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.06358,
+        "Frais": null,
+        "Prix": 157.28
+    },
+    {
+        "Date": "2026-02-02T13:11:32",
+        "Type": "Achat",
+        "Valeur": -19.84,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.838
+    },
+    {
+        "Date": "2026-02-02T15:04:06",
+        "Type": "Achat",
+        "Valeur": -87.28,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 87.28
+    },
+    {
+        "Date": "2026-02-02T16:25:32",
+        "Type": "Achat",
+        "Valeur": -34.33,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.722
+    },
+    {
+        "Date": "2026-02-06T17:31:53",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000395,
+        "Frais": -1.0,
+        "Prix": 60747.79
+    },
+    {
+        "Date": "2026-02-06T17:32:04",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.013519,
+        "Frais": -1.0,
+        "Prix": 1775.21
+    },
+    {
+        "Date": "2026-02-09T07:31:28",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000406,
+        "Frais": null,
+        "Prix": 61461.0
+    },
+    {
+        "Date": "2026-02-09T07:35:00",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005551,
+        "Frais": null,
+        "Prix": 1801.41
+    },
+    {
+        "Date": "2026-02-09T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.135273,
+        "Frais": null,
+        "Prix": 73.9245
+    },
+    {
+        "Date": "2026-02-09T09:23:40",
+        "Type": "Achat",
+        "Valeur": -30.95,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.95
+    },
+    {
+        "Date": "2026-02-09T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.05973,
+        "Frais": null,
+        "Prix": 167.42
+    },
+    {
+        "Date": "2026-02-09T12:56:50",
+        "Type": "Achat",
+        "Valeur": -19.98,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.978
+    },
+    {
+        "Date": "2026-02-09T15:32:14",
+        "Type": "Achat",
+        "Valeur": -33.87,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.645
+    },
+    {
+        "Date": "2026-02-16T07:32:12",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000419,
+        "Frais": null,
+        "Prix": 59618.85
+    },
+    {
+        "Date": "2026-02-16T07:36:00",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005828,
+        "Frais": null,
+        "Prix": 1715.67
+    },
+    {
+        "Date": "2026-02-16T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.135197,
+        "Frais": null,
+        "Prix": 73.9657
+    },
+    {
+        "Date": "2026-02-16T09:21:50",
+        "Type": "Achat",
+        "Valeur": -33.2,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 33.2
+    },
+    {
+        "Date": "2026-02-16T09:23:40",
+        "Type": "Achat",
+        "Valeur": -31.8,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 31.8
+    },
+    {
+        "Date": "2026-02-16T09:47:21",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.059687,
+        "Frais": null,
+        "Prix": 167.54
+    },
+    {
+        "Date": "2026-02-16T11:41:07",
+        "Type": "Achat",
+        "Valeur": -52.73,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 2.0,
+        "Frais": -0.26,
+        "Prix": 26.13
+    },
+    {
+        "Date": "2026-02-16T12:56:50",
+        "Type": "Achat",
+        "Valeur": -20.03,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 20.025
+    },
+    {
+        "Date": "2026-02-16T15:32:13",
+        "Type": "Achat",
+        "Valeur": -33.49,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.581
+    },
+    {
+        "Date": "2026-02-23T07:32:16",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000435,
+        "Frais": null,
+        "Prix": 57405.09
+    },
+    {
+        "Date": "2026-02-23T07:35:00",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.00609,
+        "Frais": null,
+        "Prix": 1641.96
+    },
+    {
+        "Date": "2026-02-23T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.144853,
+        "Frais": null,
+        "Prix": 69.0355
+    },
+    {
+        "Date": "2026-02-23T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.0579,
+        "Frais": null,
+        "Prix": 172.71
+    },
+    {
+        "Date": "2026-02-23T12:56:50",
+        "Type": "Achat",
+        "Valeur": -20.34,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 20.335
+    },
+    {
+        "Date": "2026-02-23T15:32:14",
+        "Type": "Achat",
+        "Valeur": -33.74,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.623
+    },
+    {
+        "Date": "2026-02-27T17:10:39",
+        "Type": "Dépôt",
+        "Valeur": 900.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-03-01T09:15:28",
+        "Type": "Intérêts",
+        "Valeur": 0.51,
+        "Note": "Zinsen",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-03-02T07:31:23",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000431,
+        "Frais": null,
+        "Prix": 58001.61
+    },
+    {
+        "Date": "2026-03-02T07:35:00",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005866,
+        "Frais": null,
+        "Prix": 1704.73
+    },
+    {
+        "Date": "2026-03-02T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.136807,
+        "Frais": null,
+        "Prix": 73.0954
+    },
+    {
+        "Date": "2026-03-02T09:21:50",
+        "Type": "Achat",
+        "Valeur": -33.29,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 33.29
+    },
+    {
+        "Date": "2026-03-02T09:23:40",
+        "Type": "Achat",
+        "Valeur": -31.77,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 31.765
+    },
+    {
+        "Date": "2026-03-02T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.054908,
+        "Frais": null,
+        "Prix": 182.12
+    },
+    {
+        "Date": "2026-03-02T10:28:12",
+        "Type": "Achat",
+        "Valeur": -28.38,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 28.27
+    },
+    {
+        "Date": "2026-03-02T10:56:19",
+        "Type": "Achat",
+        "Valeur": -5.0,
+        "Note": "Copper USD ",
+        "ISIN": "GB00B15KXQ89",
+        "Parts": 0.111661,
+        "Frais": null,
+        "Prix": 44.778
+    },
+    {
+        "Date": "2026-03-02T12:56:51",
+        "Type": "Achat",
+        "Valeur": -20.14,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 20.135
+    },
+    {
+        "Date": "2026-03-02T14:56:05",
+        "Type": "Achat",
+        "Valeur": -85.14,
+        "Note": "PEA NASDAQ 100 EUR (Acc)",
+        "ISIN": "FR0011871110",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 85.14
+    },
+    {
+        "Date": "2026-03-02T15:32:15",
+        "Type": "Achat",
+        "Valeur": -33.99,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.665
+    },
+    {
+        "Date": "2026-03-05T17:45:15",
+        "Type": "Dépôt",
+        "Valeur": 500.0,
+        "Note": "M MATHIS ELOIRE",
+        "ISIN": null,
+        "Parts": null,
+        "Frais": null,
+        "Prix": null
+    },
+    {
+        "Date": "2026-03-05T17:46:08",
+        "Type": "Achat",
+        "Valeur": -53.11,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 2.0,
+        "Frais": -0.26,
+        "Prix": 26.32
+    },
+    {
+        "Date": "2026-03-05T17:55:41",
+        "Type": "Achat",
+        "Valeur": -32.71,
+        "Note": "PEA World Water EUR (Acc)",
+        "ISIN": "FR0011882364",
+        "Parts": 1.0,
+        "Frais": -0.16,
+        "Prix": 32.545
+    },
+    {
+        "Date": "2026-03-09T07:32:49",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000415,
+        "Frais": null,
+        "Prix": 60103.45
+    },
+    {
+        "Date": "2026-03-09T07:35:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.00566,
+        "Frais": null,
+        "Prix": 1766.62
+    },
+    {
+        "Date": "2026-03-09T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.135489,
+        "Frais": null,
+        "Prix": 73.8063
+    },
+    {
+        "Date": "2026-03-09T09:23:40",
+        "Type": "Achat",
+        "Valeur": -29.99,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 29.985
+    },
+    {
+        "Date": "2026-03-09T09:47:20",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.05712,
+        "Frais": null,
+        "Prix": 175.07
+    },
+    {
+        "Date": "2026-03-09T10:28:12",
+        "Type": "Achat",
+        "Valeur": -25.98,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 25.88
+    },
+    {
+        "Date": "2026-03-09T10:53:15",
+        "Type": "Achat",
+        "Valeur": -5.0,
+        "Note": "Copper USD ",
+        "ISIN": "GB00B15KXQ89",
+        "Parts": 0.115489,
+        "Frais": null,
+        "Prix": 43.294
+    },
+    {
+        "Date": "2026-03-09T12:56:50",
+        "Type": "Achat",
+        "Valeur": -19.04,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 19.036
+    },
+    {
+        "Date": "2026-03-09T15:32:14",
+        "Type": "Achat",
+        "Valeur": -33.62,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 6.0,
+        "Frais": null,
+        "Prix": 5.603
+    },
+    {
+        "Date": "2026-03-12T14:30:32",
+        "Type": "Vente",
+        "Valeur": 188.54,
+        "Note": "Engie",
+        "ISIN": "FR0010208488",
+        "Parts": 7.0,
+        "Frais": -0.95,
+        "Prix": 27.07
+    },
+    {
+        "Date": "2026-03-16T10:38:25",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.119741,
+        "Frais": null,
+        "Prix": 83.5135
+    },
+    {
+        "Date": "2026-03-16T10:39:35",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.004926,
+        "Frais": null,
+        "Prix": 2029.89
+    },
+    {
+        "Date": "2026-03-16T10:43:31",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.000378,
+        "Frais": null,
+        "Prix": 65992.56
+    },
+    {
+        "Date": "2026-03-16T10:49:49",
+        "Type": "Achat",
+        "Valeur": -248.79,
+        "Note": "Schneider Electric",
+        "ISIN": "FR0000121972",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 247.8
+    },
+    {
+        "Date": "2026-03-16T11:00:41",
+        "Type": "Achat",
+        "Valeur": -30.79,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 30.79
+    },
+    {
+        "Date": "2026-03-16T11:08:14",
+        "Type": "Achat",
+        "Valeur": -172.73,
+        "Note": "Air Liquide",
+        "ISIN": "FR0000120073",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 172.04
+    },
+    {
+        "Date": "2026-03-16T12:56:51",
+        "Type": "Achat",
+        "Valeur": -38.75,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 2.0,
+        "Frais": null,
+        "Prix": 19.376
+    },
+    {
+        "Date": "2026-03-16T15:32:15",
+        "Type": "Achat",
+        "Valeur": -45.3,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 8.0,
+        "Frais": null,
+        "Prix": 5.662
+    },
+    {
+        "Date": "2026-03-19T19:52:51",
+        "Type": "Achat",
+        "Valeur": -51.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.314722,
+        "Frais": -1.0,
+        "Prix": 158.87
+    },
+    {
+        "Date": "2026-03-23T07:33:12",
+        "Type": "Achat",
+        "Valeur": -25.0,
+        "Note": "Bitcoin",
+        "ISIN": "XF000BTC0017",
+        "Parts": 0.00041,
+        "Frais": null,
+        "Prix": 60887.98
+    },
+    {
+        "Date": "2026-03-23T07:35:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Ethereum",
+        "ISIN": "XF000ETH0019",
+        "Parts": 0.005486,
+        "Frais": null,
+        "Prix": 1822.77
+    },
+    {
+        "Date": "2026-03-23T07:45:01",
+        "Type": "Achat",
+        "Valeur": -10.0,
+        "Note": "Solana",
+        "ISIN": "XF000SOL0012",
+        "Parts": 0.130331,
+        "Frais": null,
+        "Prix": 76.7274
+    },
+    {
+        "Date": "2026-03-23T09:23:40",
+        "Type": "Achat",
+        "Valeur": -29.19,
+        "Note": "PEA MSCI Emerging Markets ESG EUR (Acc)",
+        "ISIN": "FR0013412020",
+        "Parts": 1.0,
+        "Frais": null,
+        "Prix": 29.19
+    },
+    {
+        "Date": "2026-03-23T12:56:50",
+        "Type": "Achat",
+        "Valeur": -37.75,
+        "Note": "Stoxx Europe 600 EUR (acc)",
+        "ISIN": "FR0011550193",
+        "Parts": 2.0,
+        "Frais": null,
+        "Prix": 18.876
+    },
+    {
+        "Date": "2026-03-23T14:44:39",
+        "Type": "Achat",
+        "Valeur": -51.0,
+        "Note": "Physical Gold",
+        "ISIN": "FR0013416716",
+        "Parts": 0.327396,
+        "Frais": -1.0,
+        "Prix": 152.73
+    },
+    {
+        "Date": "2026-03-23T15:32:14",
+        "Type": "Achat",
+        "Valeur": -49.84,
+        "Note": "S&P 500 Swap Pea Eur (Acc)",
+        "ISIN": "IE000DQLYVB9",
+        "Parts": 9.0,
+        "Frais": null,
+        "Prix": 5.538
+    }
+]

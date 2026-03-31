@@ -1,0 +1,266 @@
+[
+  {
+    "id": "b2748f53-601c-40d4-80cf-6196ee29bf6d",
+    "timestamp": "2026-03-27T12:36:18.884+0000",
+    "title": "Schneider Electric",
+    "icon": "logos/FR0000121972/v2",
+    "subtitle": "J\u00e4hrliche Hauptversammlung",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "b2748f53-601c-40d4-80cf-6196ee29bf6d"
+    },
+    "eventType": "SSP_CORPORATE_ACTION_INFORMATIVE",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "c111e454-68f5-4acf-90a2-65992e7c7d72",
+    "timestamp": "2026-03-19T19:52:51.572+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "c111e454-68f5-4acf-90a2-65992e7c7d72"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "ed7ca049-3689-4dd0-9438-ff17bfb07921",
+    "timestamp": "2026-03-17T02:22:39.071+0000",
+    "title": "Air Liquide",
+    "icon": "logos/FR0000120073/v2",
+    "subtitle": "J\u00e4hrliche Hauptversammlung",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "ed7ca049-3689-4dd0-9438-ff17bfb07921"
+    },
+    "eventType": "SSP_CORPORATE_ACTION_INFORMATIVE",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "41b08312-ba61-4953-beda-d61ac92a56a7",
+    "timestamp": "2026-03-02T10:10:00.098+0000",
+    "title": "Engie",
+    "icon": "logos/FR0010208488/v2",
+    "subtitle": "J\u00e4hrliche Hauptversammlung",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "41b08312-ba61-4953-beda-d61ac92a56a7"
+    },
+    "eventType": "SSP_CORPORATE_ACTION_INFORMATIVE",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "d9a5594a-1949-41e3-8c89-861147631246",
+    "timestamp": "2025-11-22T09:42:59.512+0000",
+    "title": "Incoming crypto transaction",
+    "icon": "logos/bank_traderepublic/v2",
+    "subtitle": "0.000678 BTC",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "d9a5594a-1949-41e3-8c89-861147631246"
+    },
+    "eventType": "CRYPTO_TRANSACTION_INCOMING",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "28d47521-c2bd-4b5f-8f04-433e93eb7ab3",
+    "timestamp": "2025-09-22T13:45:28.651+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "28d47521-c2bd-4b5f-8f04-433e93eb7ab3"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "28f9c8e1-407b-4085-a741-b222f8df6f69",
+    "timestamp": "2025-09-22T13:45:28.634+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "28f9c8e1-407b-4085-a741-b222f8df6f69"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "e7b8bf24-0fee-42b8-a7ae-f83066e73d8d",
+    "timestamp": "2025-09-19T12:40:40.517+0000",
+    "title": "Eignungspr\u00fcfung",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": null,
+    "action": {
+      "type": "timelineDetail",
+      "payload": "e7b8bf24-0fee-42b8-a7ae-f83066e73d8d"
+    },
+    "eventType": "PRIVATE_MARKETS_SUITABILITY_QUIZ_COMPLETED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "8af66766-522d-42bb-9d30-38451f1274a2",
+    "timestamp": "2025-09-03T17:34:42.910+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Angenommen",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "8af66766-522d-42bb-9d30-38451f1274a2"
+    },
+    "eventType": "CRYPTO_TNC_UPDATE_2025",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "3f9b75ed-2f63-489d-beab-6ff869e4f6f8",
+    "timestamp": "2025-08-16T10:42:28.552+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "3f9b75ed-2f63-489d-beab-6ff869e4f6f8"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "a2ab2a61-978a-488b-96e2-2c8275a2ab8e",
+    "timestamp": "2025-08-16T05:10:15.969+0000",
+    "title": "Basisinformationen",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Erhalten",
+    "action": {
+      "type": "browserModal",
+      "payload": "https://support.traderepublic.com/fr-fr/"
+    },
+    "eventType": "CUSTOMER_CREATED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "3a417476-a869-487c-a05d-832d420fab36",
+    "timestamp": "2025-08-16T05:10:15.962+0000",
+    "title": "Wertpapierdepot",
+    "icon": "logos/timeline_stocks/v2",
+    "subtitle": "Er\u00f6ffnet",
+    "action": null,
+    "eventType": "SECURITIES_ACCOUNT_CREATED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "79481a74-7f10-4d77-b835-8a8d6f1b8750",
+    "timestamp": "2025-08-16T05:10:15.859+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Hinzugef\u00fcgt",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "79481a74-7f10-4d77-b835-8a8d6f1b8750"
+    },
+    "eventType": "DOCUMENTS_CREATED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "27b7e2f8-553c-4911-ae23-aba43ad5b77e",
+    "timestamp": "2025-08-15T23:27:51.655+0000",
+    "title": "E-Mail",
+    "icon": "logos/timeline_email/v2",
+    "subtitle": "Best\u00e4tigt",
+    "action": null,
+    "eventType": "EMAIL_VALIDATED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "39a48c7b-e1db-4312-8224-3c16557ce690",
+    "timestamp": "2025-08-15T23:16:07.545+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "39a48c7b-e1db-4312-8224-3c16557ce690"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "dfd85219-24dd-4303-8a5f-a3720dfedcae",
+    "timestamp": "2025-08-15T23:16:07.375+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "dfd85219-24dd-4303-8a5f-a3720dfedcae"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "78e40547-4879-4cb0-bc1c-dd81e461d1d4",
+    "timestamp": "2025-08-14T18:11:50.215+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "78e40547-4879-4cb0-bc1c-dd81e461d1d4"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  },
+  {
+    "id": "e51200d4-96fb-47f2-913d-f5b2370d8a93",
+    "timestamp": "2025-08-14T18:11:44.206+0000",
+    "title": "Rechtliche Dokumente",
+    "icon": "logos/timeline_document/v2",
+    "subtitle": "Akzeptiert",
+    "action": {
+      "type": "timelineDetail",
+      "payload": "e51200d4-96fb-47f2-913d-f5b2370d8a93"
+    },
+    "eventType": "DOCUMENTS_ACCEPTED",
+    "hidden": false,
+    "deleted": false,
+    "source": "timelineActivity"
+  }
+]

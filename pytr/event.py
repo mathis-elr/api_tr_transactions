@@ -91,6 +91,8 @@ tr_event_type_mapping = {
     # Private markets order
     "private_markets_order_created": ConditionalEventType.PRIVATE_MARKETS_ORDER,
     "private_markets_trade_executed": ConditionalEventType.PRIVATE_MARKETS_ORDER,
+    # AJOUTE CETTE LIGNE SI ELLE MANQUE :
+    "timeline_legacy_migrated_events": ConditionalEventType.TRADE_INVOICE,
 }
 
 timeline_legacy_migrated_events_title_type_mapping = {
@@ -272,6 +274,7 @@ class Event:
     fees: Optional[float]
     taxes: Optional[float]
     note: Optional[str]
+    price: Optional[str]
 
     @classmethod
     def from_dict(cls, event_dict: Dict[Any, Any]):
@@ -383,6 +386,35 @@ class Event:
                 ]:
                     event_type = PPEventType.TAXES
 
+        price = None
+        for section in sections:
+            # Cas 1 : Le prix est dans une table directe
+            if section.get("type") == "table":
+                for item in section.get("data", []):
+                    if item.get("title") in ["Aktienkurs", "Prix de l'actif", "Asset price", "Cours"]:
+                        price = item.get("detail", {}).get("text", "")
+
+            # Cas 2 : Le prix est caché dans le "detail" de la ligne Transaktion (le plus fréquent)
+            if not price and section.get("type") == "table":
+                for item in section.get("data", []):
+                    if item.get("title") == "Transaktion":
+                        # On descend dans le payload caché
+                        sub_sections = item.get("detail", {}).get("action", {}).get("payload", {}).get("sections", [])
+                        for sub_s in sub_sections:
+                            for sub_i in sub_s.get("data", []):
+                                if sub_i.get("title") in ["Aktienkurs", "Prix de l'actif", "Asset price", "Cours"]:
+                                    price = sub_i.get("detail", {}).get("text", "")
+
+            # Nettoyage final du prix pour le CSV
+        if price:
+            try:
+                # On vire le "€", les espaces et on met au format 1234.56
+                p_clean = price.split('×')[-1].replace("€", "").replace("\xa0", "").strip()
+                price = p_clean.replace(".", "").replace(",", ".")
+                price = float(price)
+            except:
+                pass  # On garde le texte brut si le nettoyage échoue
+
         ignoreEvent = False
         if sections:
             for item in sections:
@@ -428,7 +460,7 @@ class Event:
             get_event_logger().debug("Unknown event %s: %s", eventdesc, json.dumps(event_dict, indent=4))
 
         isin, shares, shares2, value, fees, taxes, note = cls._parse_type_dependent_params(event_type, event_dict)
-        return cls(event_type, date, title, isin, isin2, shares, shares2, value, fees, taxes, note)
+        return cls(event_type, date, title, isin, isin2, shares, shares2, value, fees, taxes, note, price)
 
     @classmethod
     def _parse_type_dependent_params(
@@ -789,7 +821,7 @@ class Event:
             Optional[str]: note
         """
         eventTypeStr = event_dict.get("eventType", "")
-        if eventTypeStr.startswith("card_"):
+        if eventTypeStr and eventTypeStr.startswith("card_"):
             return eventTypeStr
 
         sections = event_dict.get("details", {}).get("sections", [{}])
