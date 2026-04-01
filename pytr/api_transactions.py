@@ -68,41 +68,35 @@ def get_code_sms():
 
 @app.route('/transactions', methods=['GET'])
 def get_transactions():
-
-    #check_auth()
     api, connected = get_create_tr_api()
-
     if not connected:
         return jsonify({"error": "Authentification requise (SMS)"}), 403
 
     try:
-        # 1. Initialiser la Timeline en forçant tout en mémoire (pas de fichiers)
-        tl = Timeline(
-            tr=api,
-            output_path=Path("."),
-            not_before=0,
-            not_after=float("inf"),
-            store_event_database=False,
-            scan_for_duplicates=False,
-            dump_raw_data=False
-        )
+        # --- GESTION PROPRE DE LA BOUCLE POUR SERVEUR ---
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
 
-        asyncio.run(tl.tl_loop())
+        tl = Timeline(tr=api, output_path=Path("."), store_event_database=False)
+        loop.run_until_complete(tl.tl_loop())
+        loop.close()
 
-        # 1. On crée les objets Event (ceux qui ont maintenant le prix !)
-        events = [Event.from_dict(ev) for ev in tl.events]
+        # Sécurité contre le bug 'startswith'
+        events = []
+        for ev in tl.events:
+            try:
+                events.append(Event.from_dict(ev))
+            except:
+                continue  # On ignore les transactions qui font bugger pytr
 
-        # 2. On prépare l'exportateur
         exporter = TransactionExporter(lang="fr")
-
-        # 3. LE TRUC MAGIQUE : On crée un fichier virtuel en mémoire
         output = io.StringIO()
-
-        # 4. On appelle la fonction EXACTE du terminal
         all_txns = exporter.export(output, events, format="json", sort=True)
 
-        # 5. On renvoie directement cette liste
         return jsonify(all_txns)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
     except Exception as e:
@@ -111,4 +105,4 @@ def get_transactions():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=80, debug=True)
+    app.run(host='0.0.0.0',port=5000, debug=True)
