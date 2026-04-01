@@ -69,7 +69,7 @@ def get_code_sms():
 @app.route('/transactions', methods=['GET'])
 def get_transactions():
 
-    check_auth()
+    #check_auth()
     api, connected = get_create_tr_api()
 
     if not connected:
@@ -111,4 +111,4 @@ def get_transactions():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5000, debug=True)
+    app.run(host='0.0.0.0',port=80, debug=True)
