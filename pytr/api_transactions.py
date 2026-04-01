@@ -6,12 +6,14 @@ from pytr.account import login
 from pytr.timeline import Timeline
 from pytr.event import Event
 from pytr.transactions import TransactionExporter
+from pytr.api import TradeRepublicApi
+import json
 
 app = Flask(__name__)
-tr = None
+tr_api = None
 
 # On définit une clé ultra secrète (change-la !)
-API_KEY = "ton_code_ultra_secret_12345"
+API_KEY = "lesapicestcoolencoremieuxquandcestautomatique"
 
 def check_auth():
     # On vérifie si la clé est dans les headers de la requête
@@ -19,33 +21,61 @@ def check_auth():
     if key != API_KEY:
         abort(401) # Erreur : Non autorisé
 
-def init_tr():
-    global tr
-    if tr is None:
+def get_create_tr_api():
+    global tr_api
+    if tr_api is None:
+        # Remplace par tes vrais identifiants
+        tr_api = TradeRepublicApi(phone_no="+33779867060", pin="1938", save_cookies=True)
+
+    is_connected = tr_api.resume_websession()
+    return tr_api, is_connected
+
+@app.route('/auth/request-sms', methods=['POST'])
+def demande_code_sms():
+    api, connected = get_create_tr_api()
+
+    if(connected):
         try:
-            print("Restauration de la session Web Trade Republic...")
-            # On utilise la fonction de login de haut niveau de pytr.
-            # web=True lui dit d'utiliser ton fichier cookies.txt
-            # S'il le trouve, la connexion est instantanée sans mot de passe !
-            tr = login(web=True)
-            print("Connecté avec succès !")
-        except Exception as e:
-            print(f"Erreur de connexion : {e}")
-            raise
-    return tr
+            # On tente une mini-requête réelle vers Trade Republic
+            api.settings()
+            # Si ça marche, on stoppe tout : l'utilisateur est déjà prêt
+            return jsonify({"status": "already_connected", "message": "Session encore valide, pas de SMS requis."})
+        except Exception:
+            # Si ça plante, c'est que le fichier est expiré. On continue vers le SMS.
+            print("Session disque expirée, déclenchement du SMS...")
 
+    try:
+        countdown = api.initiate_weblogin()
+        return jsonify({"status": "sms_sent", "countdown": countdown})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
-init_tr()
+@app.route('/auth/confirm-sms', methods=['POST'])
+def get_code_sms():
+    global tr_api
+    data = request.json
+    code_sms = data.get('code')
 
+    if tr_api is None:
+        return jsonify({"error": "Session non initialisée"}), 400
+
+    try:
+        # ON VALIDE LE CODE
+        tr_api.complete_weblogin(code_sms)
+        return jsonify({"status": "success", "message": "Authentification réussie"})
+    except Exception as e:
+        return jsonify({"error": f"Code invalide : {str(e)}"}), 401
 
 @app.route('/transactions', methods=['GET'])
 def get_transactions():
 
     check_auth()
+    api, connected = get_create_tr_api()
+
+    if not connected:
+        return jsonify({"error": "Authentification requise (SMS)"}), 403
 
     try:
-        api = init_tr()
-
         # 1. Initialiser la Timeline en forçant tout en mémoire (pas de fichiers)
         tl = Timeline(
             tr=api,
